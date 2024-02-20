@@ -4,9 +4,10 @@ namespace ChessLogic
 {
     public class Board
     {
+        //rectangular array for storing the pieces
         private readonly Piece[,] pieces = new Piece[8, 8];
         
-        private Piece this[int row, int col]
+        public Piece this[int row, int col]
         {
             get { return pieces[row, col]; }
             set { pieces[row, col] = value; }
