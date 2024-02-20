@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace ChessLogic
+﻿namespace ChessLogic
 {
     public class Board
     {
