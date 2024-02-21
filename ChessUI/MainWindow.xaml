@@ -17,7 +17,7 @@
             <Grid.Background>
                 <ImageBrush ImageSource="Assets/Board.png"/>
             </Grid.Background>
-            
+
             <UniformGrid x:Name="HighlightGrid"
                          Rows="8"
                          Columns="8">
