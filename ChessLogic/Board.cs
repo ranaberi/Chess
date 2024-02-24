@@ -94,5 +94,15 @@
                 return piece.CanCaptureOpponentKing(pos, this);
             });
         }
+
+        public Board Copy()
+        {
+            Board copy = new Board();
+            foreach(Position pos in PiecePositions())
+            {
+                copy[pos] = this[pos].Copy();
+            }
+            return copy;
+        }
     }
 }
